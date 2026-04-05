@@ -47,13 +47,8 @@ loader.load("/models/flower_export.glb", (glb) => {
 
     if (child.isMesh) {
       Object.keys(textureMap).forEach(key => {
-        if (child.name.includes(key)) {
-          // child.position.rotate.y += 90;
-          
-        }
-
+        if (child.name.includes(key)) {}
       });
-
     }
 
   })
